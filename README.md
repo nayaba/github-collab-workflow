@@ -1,14 +1,21 @@
 # Collaborating on GitHub Repositories
 
-**Objective:**  
-By the end of this lesson, students will be able to:  
-1. Create and collaborate on a shared GitHub repository.  
-2. Follow a simple Git workflow for group projects.  
-3. Understand roles and responsibilities within the team.  
+### Set Up the Local Repos
+1. Clone your [Auth Frontend](https://github.com/nayaba/react-jwt-auth-template-seb-2-pt) and [Auth Backend](https://github.com/zeemohamed7/seb-pt-2-express-api-jwt-auth) Templates
+2. Remove git tracking and initialize a new git repo
+   ```bash
+   rm -rf .git
+   git init
+   git add .
+   git commit -m "Initial Commit"
+   ```
+3. Link your local repo to the github.com repo you just created
+   ```bash
+   git remote add origin <github-repo-link>
+   git push origin main
+   ```
 
----
-
-### 1. **Set Up the Collab Repo**
+### Set Up the Collab Repos
 1. **Choose a Repo Manager**:  
    - One person (Manager) creates the repository on GitHub.  
    - The Manager shares the repository link with the team.  
@@ -22,10 +29,25 @@ By the end of this lesson, students will be able to:
 <img width="1467" alt="repo-6-collaboration-invite-github" src="https://github.com/user-attachments/assets/c5c69460-d0e0-4f40-a894-35261e0daf87" />
 
 
-2. **Clone the Repo**:  
+2. **Clone the Repo & Finish Setup**:  
    - Everyone clones the repo to their computer using:
      ```bash
      git clone <repo-url>
+     ```
+   - Run install command and create `.env` file:
+     ```bash
+     npm i
+     touch .env
+     ```
+   - Add info to the right .env file:
+     Backend:
+     ```bash
+      MONGODB_URI=mongodb+srv://<username>:<password>@sei-w0kys.azure.mongodb.net/hoot?retryWrites=true
+      JWT_SECRET=your_secure_random_string_here
+     ```
+     Frontend:
+     ```bash
+      VITE_BACK_END_SERVER_URL=http://localhost:3000
      ```
 
 3. **Branching Rules**:  
@@ -35,6 +57,7 @@ By the end of this lesson, students will be able to:
      ```bash
      git checkout -b name-feature
      ```
+
 
 🖥️ [Workflow for Coding](workflow.md)
 
