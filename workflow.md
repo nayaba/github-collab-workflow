@@ -16,22 +16,28 @@
            git merge main
            ```
         <details>
-           <summary><bold>What If There Are Conflicts?</bold></summary>
-                 1. Look for ❗️ symbol in your file tree.
-                 2. Open the files with ❗️.  You'll see something like this
-                 ```bash
-                 <<<<<<< HEAD
-                 Your changes here
-                 =======
-                 Changes from main branch
-                 >>>>>>> main
-                 ```
-                 3. If you want to keep the changes from the main branch, click `"Accept Incoming Change."`
-                 4. After resolving conflicts:
-                    ```bash
-                    git add .
-                    git commit -m "Resolve merge conflicts with main"
-                    ```
+           <summary><strong>❗️ What If There Are Conflicts? </strong></summary>
+           <ol>
+          <li>Look for ❗️ symbol in your file tree.</li>
+          <li>
+            Open the files with ❗️. You'll see something like this:
+            <pre><code>
+            <<<<<<< HEAD
+            Your changes here
+            =======
+            Changes from main branch
+            >>>>>> main
+            </code></pre>
+          </li>
+          <li>If you want to keep the changes from the main branch, click <strong>"Accept Incoming Change."</strong></li>
+          <li>
+            After resolving conflicts:
+            <pre><code>
+            git add .
+            git commit -m "Resolve merge conflicts with main"
+            </code></pre>
+          </li>
+        </ol>
         </details>
 
      
