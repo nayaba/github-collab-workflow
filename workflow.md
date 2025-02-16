@@ -3,6 +3,7 @@
 1. **Keep Your Branch Updated**:  
    - Pull updates from the `main` branch:  
      ```bash
+     git checkout main
      git pull origin main
      ```
    - **Steps to Pull and Merge `main` into Your Feature Branch:**
