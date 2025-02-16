@@ -1,4 +1,4 @@
-### Lesson Plan: Collaborating on GitHub Repositories
+# Collaborating on GitHub Repositories
 
 **Objective:**  
 By the end of this lesson, students will be able to:  
@@ -27,4 +27,5 @@ By the end of this lesson, students will be able to:
      git checkout -b name-feature
      ```
 
+🖥️ [Workflow for Coding](workflow.md)
 
