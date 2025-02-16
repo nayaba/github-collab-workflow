@@ -8,21 +8,21 @@ By the end of this lesson, students will be able to:
 
 ---
 
-### 1. **Setting Up the Collaborative Repository**
-1. **Choose a Repository Manager**:  
-   - One person (the "Manager") creates the repository on GitHub.  
+### 1. **Set Up the Collab Repo**
+1. **Choose a Repo Manager**:  
+   - One person (Manager) creates the repository on GitHub.  
    - The Manager shares the repository link with the team.  
 
-2. **Clone the Repository**:  
-   - Everyone on the team clones the repository to their local computer using:
+2. **Clone the Repo**:  
+   - Everyone clones the repo to their computer using:
      ```bash
-     git clone <repository-url>
+     git clone <repo-url>
      ```
 
 3. **Branching Rules**:  
    - Everyone creates their own branch to work on.  
-   - Name the branch as `name-feature`, for example, `nabila-index` or `ali-update-form`.  
-   - Use this command to create and switch to your branch:  
+   - Name the branch `name-feature`, for example, `nabila-index` or `ali-update-form`.  
+   - Use this command to create your branch:  
      ```bash
      git checkout -b name-feature
      ```
