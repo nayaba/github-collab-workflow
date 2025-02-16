@@ -1,9 +1,6 @@
 # **Git Workflow for Beginners**
 
-1. **Always Work on Your Branch**:  
-   - Never make changes directly to the `main` branch.  
-
-2. **Keep Your Branch Updated**:  
+1. **Keep Your Branch Updated**:  
    - Pull updates from the `main` branch:  
      ```bash
      git pull origin main
@@ -37,24 +34,24 @@
            git commit -m "Resolve merge conflicts with main"
            ```
 
-3. **Commit Your Changes**:  
+2. **Commit Your Changes**:  
    - Use clear and simple commit messages to explain your changes:
      ```bash
      git add .
      git commit -m "Add login form"
      ```
 
-4. **Push Your Branch**:  
+3. **Push Your Branch**:  
    - Push your changes to GitHub:  
      ```bash
      git push origin name-feature
      ```
 
-5. **Open a Pull Request (PR)**:  
+4. **Open a Pull Request (PR)**:  
    - On GitHub, go to the repository and open a pull request (PR) from your branch into `main`.  
    - Add a short description of what you did in the PR.
 
-6. **Wait for Review and Approval**:  
+5. **Wait for Review and Approval**:  
    - The Manager reviews and merges the PR into `main`.  
    - The Manager ensures there are no conflicts before merging.  
 
