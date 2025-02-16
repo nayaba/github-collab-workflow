@@ -4,7 +4,7 @@
    - Never make changes directly to the `main` branch.  
 
 2. **Keep Your Branch Updated**:  
-   - Regularly pull updates from the `main` branch to keep your branch up-to-date:  
+   - Pull updates from the `main` branch:  
      ```bash
      git pull origin main
      ```
