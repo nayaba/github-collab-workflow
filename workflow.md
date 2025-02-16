@@ -34,26 +34,23 @@
            git commit -m "Resolve merge conflicts with main"
            ```
 
-2. **Commit Your Changes**:  
-   - Use clear and simple commit messages to explain your changes:
+2. **Do work on your branch.**
+3. **Commit Your Changes**:  
      ```bash
      git add .
      git commit -m "Add login form"
      ```
 
-3. **Push Your Branch**:  
-   - Push your changes to GitHub:  
+4. **Push Your Branch**:   
      ```bash
      git push origin name-feature
      ```
 
-4. **Open a Pull Request (PR)**:  
+5. **Open a Pull Request (PR)**:  
    - On GitHub, go to the repository and open a pull request (PR) from your branch into `main`.  
-   - Add a short description of what you did in the PR.
 
-5. **Wait for Review and Approval**:  
-   - The Manager reviews and merges the PR into `main`.  
-   - The Manager ensures there are no conflicts before merging.  
+6. **The Manager reviews and merges the PR into `main`.**  
+
 
 ---
 
